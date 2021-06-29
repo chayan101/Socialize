@@ -1,5 +1,5 @@
 //this "socket" var is diff to that on server and "io" obj is made available through lib imported in index.html
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('https://socializze.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message'),

@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require('express');
 var socket = require('socket.io');
 var cors = require('cors');
@@ -5,7 +6,8 @@ var cors = require('cors');
 var app = express();
 app.use(cors());
 
-var server = app.listen('4000', ()=>{
+var port = process.env.PORT || 4000;
+var server = app.listen(port, ()=>{
   console.log('server up and running....');
 });
 
