@@ -4,7 +4,8 @@
   "description": "a fun project built with the objective of learning the concept of web sockets",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
   "author": "Chayan Gurele",
   "license": "ISC",
